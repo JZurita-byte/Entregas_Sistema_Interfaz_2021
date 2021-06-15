@@ -1,0 +1,282 @@
+div {
+    border:1px black solid;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+.dimension{
+    width: 400px;
+    height: 250px;
+}
+
+/* MEXICO */
+
+.img2{
+    position: absolute;
+    height: 108px;
+    width: 118px;
+    margin-left: 139px;
+    margin-top: 83px;
+}
+
+.mexico{
+    padding: 0px !important;
+    box-sizing: border-box !important;
+}
+
+.mexico div{
+    padding:0px !important;
+    margin: 0px !important;
+    border:none;
+    box-sizing: border-box !important;
+}
+
+.verde{
+    background-color:rgb(8, 134, 40);
+    display: inline-block;
+    width: 130px;
+    height: 250px;
+}
+
+.blanco{
+    background-color: white;
+    display: inline-block;
+    width: 130px;
+    height: 250px;
+}
+
+.rojo{
+    background-color: red;
+    display: inline-block;
+    width: 130px;
+    height: 250px;
+}
+
+/* COLOMBIA */
+
+.colombia{
+    padding: 0px !important;
+    box-sizing: border-box !important;
+}
+.colombia div{
+    padding:0px !important;
+    margin: 0px !important;
+    border:none;
+    box-sizing: border-box !important;
+}
+
+.amarillo{
+    background-color: yellow;
+    width: 400px;
+    height: 150px;
+}
+
+.azul{
+    background-color: blue;
+    width: 400px;
+    height: 50px;
+}
+
+.rojoc{
+    background-color: red;
+    width: 400px;
+    height: 50px;
+    border:none
+}
+
+/* ESPAÑA */
+
+.img1{
+    position:absolute;
+    margin-top: 57px;
+    margin-left: 19px ;
+    height: 119px;
+    width: 120px;
+    
+}
+
+.españa{
+    padding: 0px !important;
+    box-sizing: border-box !important;
+}
+.colombia div{
+    padding:0px !important;
+    margin: 0px !important;
+    border:none;
+    box-sizing: border-box !important;
+}
+
+.amarillo{
+    background-color: yellow;
+    width: 400px;
+    height: 150px;
+    border:none;
+}
+
+.azul{
+    background-color: blue;
+    width: 400px;
+    height: 50px;
+}
+
+/* JAPON */
+
+.blanco{
+    background-color: white;
+    
+}
+
+.circulorojo{
+    background-color: red;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-left: 130px;
+    margin-top: 63px;
+    border: none;
+}
+
+/* ISLANDIA */
+
+.azulfondo{
+    background-color: rgb(37, 58, 182);
+}
+
+.vertical{
+    background-color: white;
+    width: 65px;
+    height: 248px;
+    margin-left: 100px;
+    border:none !important;
+}
+
+.horizontal{
+    background-color: white;
+    width: 397px;
+    height: 50px;
+    margin-top: -150px;
+    border:none !important;
+}
+
+.vertical2{
+    background-color: red;
+    width: 35px;
+    height: 249px;
+    margin-left: 115px;
+    margin-top: -149px;
+    border:none !important;
+    position: absolute
+
+}
+
+.horizontal2{
+    background-color: red;
+    width: 397px;
+    height: 30px;
+    margin-top: -40px;
+    border:none !important;
+    position: absolute;
+
+}
+
+/* CHILE */
+
+.rojochile{
+    background-color: red;
+}
+
+.verticalazul{
+    background-color: blue;
+    width: 130px;
+    height: 126px;
+    margin-left: 0px;
+    border:none !important;
+}
+
+.verticalblanco{
+    background-color: white;
+    width: 268px;
+    height: 125px;
+    margin-top: -126px;
+    margin-left: 130px;
+    border:none !important;
+}
+
+.estrellachile{
+    position:absolute;
+    margin-top: -104px;
+    margin-left: 17px;
+    height: 90px;
+    width: 90px;
+}
+
+
+/* BRASIL */
+
+.circuloazul{
+    background-color: darkblue;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-left: 130px;
+    margin-top: 63px;
+    border: none;
+    position:absolute
+}
+
+.brasil{
+    background-color: green;
+    width: 400px;
+    height: 250px;
+
+}
+
+.rombo{
+    padding-top: -195px;
+    padding-left: 60px;
+    width: 262px;
+    height: 243px;
+}
+
+/* PAQUISTAN */
+
+.blancop{
+    background-color: white;
+    width: 130px;
+    height: 250px;
+    border:none
+}
+
+.verdep{
+    background-color: rgb(23, 95, 23);
+    width: 269px;
+    height: 250px;
+    margin-top: -250px;
+    margin-left: 129px;
+    border:none
+}
+
+.luna {
+    width: 149px;
+    height: 142px;
+    border-radius: 69%;
+    box-shadow: -26px 15px 0 0 white;
+    margin-left: 213px;
+    margin-top: -198px;
+    border:none
+  }
+
+  .estrellapaqui{
+
+    position: absolute;
+    margin-top: -134px;
+    margin-left: 278px;
+    height: 60px;
+    width: 61px;
+    -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+
+  }
+ 
