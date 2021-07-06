@@ -1,0 +1,26 @@
+.envoltorio_padre{
+    background-color: lightsalmon;
+    display: flex;
+    height: 500px;
+ /*  flex-direction: row;
+    flex-wrap: wrap; 
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;*/
+}
+
+.envoltorio_padre div{
+    border: 1px solid black;
+    width: 100px;
+    height: 200px; 
+    text-align: center;
+    margin: 5px
+}
+
+.hijo_01{
+flex-basis: 200px;
+}
+
+.hijo_02, .hijo_03, .hijo_04, .hijo_05 {
+    flex-basis: 100px;
+}

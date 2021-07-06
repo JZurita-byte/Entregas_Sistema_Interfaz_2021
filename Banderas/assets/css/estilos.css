@@ -274,9 +274,9 @@ div {
     height: 60px;
     width: 61px;
     -webkit-transform: rotate(-35deg);
-   -moz-transform:    rotate(-35deg);
-   -ms-transform:     rotate(-35deg);
-   -o-transform:      rotate(-35deg);
+    -moz-transform:    rotate(-35deg);
+    -ms-transform:     rotate(-35deg);
+    -o-transform:      rotate(-35deg);
 
   }
  

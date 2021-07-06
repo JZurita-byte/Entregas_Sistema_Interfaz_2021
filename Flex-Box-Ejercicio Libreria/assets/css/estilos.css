@@ -1,0 +1,17 @@
+
+.envoltorio_padre{
+    background-color: lightsalmon;
+    display: flex;
+    height: 500px;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.envoltorio_padre div{
+    border: 1px solid black;
+    width: 230px;
+    height: 200px; 
+    text-align: center;
+    margin: 5px
+}

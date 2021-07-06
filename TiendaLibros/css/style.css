@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: #ffff;
+    background-color: #1d1d24;
+    font-size: 16px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+ }
+
+.contenedor {
+    width: 95%;
+    margin: auto;
+}
+
+ /* separacion para el menu con linea hr */
+hr{
+    margin: 10px 0;
+}
+ 
+.destacado-principal {
+    color: rgb(255, 255, 255);
+    background-color: rgba(77, 40, 77, 0.61);
+    width: 100%;
+    height: 500px;
+    padding: 50px;
+    margin-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.destacado-principal h2{
+    margin-top: 150px;
+}
+
+.destacados{
+    width: 103%;
+    height: 110%;
+    border: 1px solid #ccc;
+}
+
+/*Noticias*/
+
+/* 1fr representa una fracción del espacio disponible en el contenedor de la cuadrícula (columnas y/o espacios que se usaran en grid)
+
+gap es para el espaciado entre las columnas y filas */
+
+
+/* 3 columnas  */
+.portadas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 35px;
+    margin: 10px 0;
+    background-color: rgba(82, 35, 82, 0.466);
+    padding: 15px 15px 15px;
+}
+
+.portadas .nombre-producto {
+    width: 100%;
+    height: 280px;
+    border: 2px solid #ccc;   
+}
+
+.portadas .nombre-producto h2{
+    margin-top: 100px;
+ 
+}
+
+/* 4 columnas */
+
+.portadas2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 35px;
+    margin: 10px 0;
+    background-color: rgba(77, 40, 77, 0.61);
+    padding: 15px 15px 15px;
+}
+
+/* pie de pagina */
+
+.footer {
+    background-color: #0b0211;
+    opacity: .8;
+    color: #949494;
+    font-size: 16px;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 20px;   
+}
+
