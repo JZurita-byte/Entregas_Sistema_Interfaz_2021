@@ -1,0 +1,215 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: #ffff;
+    background-color: #1d1d24;
+    font-size: 16px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+ }
+
+.contenedor {
+    width: 95%;
+    margin: auto;
+}
+
+li{
+    margin-left:20px;
+}
+
+h3{
+    color: white;
+    text-align: left;
+    padding-left: 15px;
+ }
+
+.titulo{
+    margin-left: 0px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+ /* separacion para el menu con linea hr */
+hr{
+    margin: 10px 0;
+}
+ 
+.destacado-principal {
+    color: rgb(255, 255, 255);
+    background-color: rgba(77, 40, 77, 0.61);
+    width: 100%;
+    height: 500px;
+    padding: 50px;
+    margin-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.destacado-principal h2{
+    margin-top: 150px;
+}
+
+.destacados{
+    width: 103%;
+    height: 110%;
+    border: 1px solid #ccc;
+}
+
+/*Noticias*/
+
+/* 1fr representa una fracción del espacio disponible en el contenedor de la cuadrícula (columnas y/o espacios que se usaran en grid)
+
+gap es para el espaciado entre las columnas y filas */
+
+
+/* 3 columnas  */
+.portadas {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 25px;
+    margin: 10px 0;
+    background-color: rgba(82, 35, 82, 0.466);
+    padding: 15px 15px 15px;
+
+}
+
+.portadascont{
+    width: 50%;
+}
+
+.columna {
+    display: grid;   
+    gap: 25px;
+    margin: 10px 0;    
+    padding: 15px 15px 15px;
+}
+
+.divcolumna{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 25px;
+    margin: 10px 0;
+    padding: 15px 15px 15px;
+}
+
+
+
+.portadas .nombre-producto {
+    width: 100%;
+    height: 280px;
+    border: 2px solid #ccc;   
+}
+
+.portadas .nombre-producto h2{
+    margin-top: 100px;
+ 
+}
+
+/* 4 columnas */
+
+.portadas2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 35px;
+    margin: 10px 0;
+    background-color: rgba(77, 40, 77, 0.61);
+    padding: 15px 15px 15px;
+}
+
+/* pie de pagina */
+
+.footer {
+    background-color: #0b0211;
+    opacity: .8;
+    color: #949494;
+    font-size: 16px;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 20px;   
+}
+
+
+/* slider principal */
+
+.slideshow {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .holder {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 10000vw;
+    height: 100vh;
+    transition: left 1s;
+  }
+
+  .holder div {
+    float: left;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 30px;
+  }
+
+  .slide-1 {
+    background-image: url(https://source.unsplash.com/vI5XwPbGvmY/1920x1280);
+  }
+
+  .slide-2 {
+    background-image: url(https://source.unsplash.com/9i0_nwHe6T8/1920x1280);
+  }
+
+  .slide-3 {
+    background-image: url(https://source.unsplash.com/Qwcu7dHyL7A/1920x1280);
+  }
+
+  .slide-4 {
+    background-image: url(https://source.unsplash.com/sxaYEsE12RM/1920x1280);
+  }
+
+  .slide-5 {
+    background-image: url(https://source.unsplash.com/wQLAGv4_OYs/1920x1280);
+  }
+
+
+  .steps {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  a {
+    color: white;
+    padding: 20px 30px;
+    position: absolute;
+    bottom: 0;
+    text-decoration: none;
+    z-index: 1;
+  }
+
+  .prev {
+    left: 0;
+  }
+
+  .next {
+    right: 0;
+  }
+
