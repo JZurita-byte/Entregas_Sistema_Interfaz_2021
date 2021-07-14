@@ -94,7 +94,6 @@ h3{
 
 }
 
- /* separacion para el menu con linea hr */
 hr{
     margin: 10px 0;
 }
@@ -121,23 +120,6 @@ hr{
     height: 110%;
     border: 1px solid #ccc;
 } 
-
-/*Noticias*/
-
-/* 1fr representa una fracción del espacio disponible en el contenedor de la cuadrícula (columnas y/o espacios que se usaran en grid)
-
-gap es para el espaciado entre las columnas y filas */
-
-
-/* 3 columnas  */
-/* .portadas {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  gap: 27px;
-  margin: -141px 0;
-  background-color: none;
-  padding: 15px 15px 15px;
-} */
 
 .columna {
   display: grid;
@@ -176,17 +158,6 @@ gap es para el espaciado entre las columnas y filas */
     margin: 10px 0;
     padding: 15px 15px 15px;
 }
-
-/* FOOTER */
-/* .divfooter{
-  margin: 0px 0px 0px;
-  height: 170px;
-  width: 100%;
-  font-size: 16px;
-  text-align: center;
-  background-color: #c59630;  
-} */
-
 
 /* SLIDER */
 .slideshow {
@@ -286,52 +257,21 @@ footer{
     position: relative;
     top: 0;
     left: 0;
-    width: 10000vw;
-    height: 100vh;
+    width: 2000px;
+    height: 700px;
     transition: left 1s;
   }
 
   .holder div {
     float: left;
-    width: 100vw;
-    height: 84vh;
+    width: 2000px;
+    height: 700px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 8px 0px;
     margin: auto;
     overflow: hidden;
-  }
-
-  .steps {
-    position: absolute;
-    bottom: -178px;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    text-align: center;
-    font-size: 20px;
-  }
-
-  a {
-    color: white;
-    padding: 20px 30px;
-    position: absolute;
-    bottom: 0;
-    text-decoration: none;
-    z-index: 1;
-  }
-
-  .prev {
-    left: 818px;
-    size: 5ex;
-    bottom: -225px;
-  }
-
-  .next {
-    right: 817px;
-    size: 5ex;
-    bottom: -225px;
   }
 
   footer{
@@ -343,6 +283,8 @@ footer{
     width: 799px;
     height: 432px;
     padding-left: 120px;
+    margin-top: -150px;
+    padding-top: -10px;
   }
 
  .portadas2 {
@@ -372,8 +314,9 @@ hr{
   margin-left: 110px; ;
 }
 
-
-
+img{
+width: 1300px;
+}
 
 
 
